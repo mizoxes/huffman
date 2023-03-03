@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        BitStream stream = new BitStream(16000);
+        BitStream stream = new BitStream(409600); // 50 kb
 
         System.out.println("Please select an option:");
         System.out.println("1- Encode");
